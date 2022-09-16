@@ -2,6 +2,20 @@
   "name": "bank-modern-app",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "author": "Sanidhya Kr. Verma",
+  "description": "The Next Generation Bank App using React JS",
+  "keywords": [
+    "reactjs",
+    "react",
+    "banking-app",
+    "bank-web-app",
+    "modern-ui/ux",
+    "js",
+    "javascript",
+    "html",
+    "css"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
