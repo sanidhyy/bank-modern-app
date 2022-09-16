@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import Button from "./Button";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,16 +14,18 @@ const Navbar = () => {
 
       {/* Navbar (Desktop) */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, i) => (
+        {navLinks.map((nav) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              i === navLinks.length - 1 ? "mr-0" : "mr-10"
-            } text-white hover:text-secondary transition ease-in-out duration-100`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white hover:text-secondary transition ease-in-out duration-100`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+
+        <a href="http://github.com" target="_blank" rel="noreferrer">
+          <Button text="Source Code" styles="py-3 px-3 text-[16px]" />
+        </a>
       </ul>
 
       {/* Navbar (Mobile) */}
@@ -44,13 +47,18 @@ const Navbar = () => {
             {navLinks.map((nav, i) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                  i === navLinks.length - 1 ? "mb-0" : "mb-4"
-                } text-white hover:text-secondary`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white hover:text-secondary`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <li
+              className={`font-poppins font-normal cursor-pointer text-[16px] text-secondary mb-0`}
+            >
+              <a href="http://github.com" target="_blank" rel="noreferrer">
+                Source Code
+              </a>
+            </li>
           </ul>
         </div>
       </div>

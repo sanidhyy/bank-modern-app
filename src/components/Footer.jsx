@@ -58,14 +58,20 @@ const Footer = () => (
       {/* Social Media */}
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, i) => (
-          <img
+          <a
             key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer hover:invert-[30%] transition ease-in-out duration-300 ${
-              i !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-          />
+            href={social.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={social.icon}
+              alt={social.id}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer hover:invert-[30%] transition ease-in-out duration-150 ${
+                i !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+            />
+          </a>
         ))}
       </div>
     </div>
