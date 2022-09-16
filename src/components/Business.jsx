@@ -31,7 +31,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 // Business
 const Business = () => {
   return (
-    <section id="feature" className={layout.section}>
+    <section id="features" className={layout.section}>
       {/* Section Info */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
