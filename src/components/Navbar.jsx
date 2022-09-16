@@ -18,7 +18,7 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               i === navLinks.length - 1 ? "mr-0" : "mr-10"
-            } text-white`}
+            } text-white hover:text-secondary transition ease-in-out duration-100`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -29,7 +29,8 @@ const Navbar = () => {
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
-          alt="Menu"
+          alt={toggle ? "Close Menu" : "Open Menu"}
+          title={toggle ? "Close Menu" : "Open Menu"}
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prevToggle) => !prevToggle)}
         />
@@ -45,7 +46,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] ${
                   i === navLinks.length - 1 ? "mb-0" : "mb-4"
-                } text-white`}
+                } text-white hover:text-secondary`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
