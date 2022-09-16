@@ -3,6 +3,7 @@ import styles from "./styles";
 import {
   Navbar,
   Stats,
+  Hero,
   Business,
   Billing,
   CardDeal,
