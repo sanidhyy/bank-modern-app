@@ -23,7 +23,11 @@ const Navbar = () => {
           </li>
         ))}
 
-        <a href="http://github.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/Technical-Shubham-tech/bank-modern-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Button text="Source Code" styles="py-3 px-3 text-[16px]" />
         </a>
       </ul>
@@ -55,7 +59,11 @@ const Navbar = () => {
             <li
               className={`font-poppins font-normal cursor-pointer text-[16px] text-secondary mb-0`}
             >
-              <a href="http://github.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Technical-Shubham-tech/bank-modern-app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Source Code
               </a>
             </li>
