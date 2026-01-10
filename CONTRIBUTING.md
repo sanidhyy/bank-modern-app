@@ -1,7 +1,7 @@
 ## Contributing
 
-[fork]: https://github.com/Technical-Shubham-tech/bank-modern-app/fork
-[pr]: https://github.com/Technical-Shubham-tech/bank-modern-app/compare
+[fork]: https://github.com/sanidhyy/bank-modern-app/fork
+[pr]: https://github.com/sanidhyy/bank-modern-app/compare
 [style]: https://standardjs.com/
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
