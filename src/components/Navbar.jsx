@@ -24,7 +24,7 @@ const Navbar = () => {
         ))}
 
         <a
-          href="https://github.com/Technical-Shubham-tech/bank-modern-app"
+          href="https://github.com/sanidhyy/bank-modern-app"
           target="_blank"
           rel="noreferrer"
         >
