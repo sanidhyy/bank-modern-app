@@ -27,6 +27,14 @@
 4. Once packages are installed, you can start this app using `npm run dev` or `yarn run dev`.
 5. Now app is fully configured and you can start using this app :+1:.
 
+### :raising_hand: Need Help?
+
+If you run into issues during installation or setup:
+
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/bank-modern-app/discussions/new?category=q-a) for setup and troubleshooting help.
+- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
+- **Discord** — `@sanidhyy`
+
 ## :camera: Screenshots:
 
 ![Modern UI/UX](https://user-images.githubusercontent.com/71302066/191179077-5db352ce-afd1-4841-a520-4e0ad58a56ea.png "Modern UI/UX")
