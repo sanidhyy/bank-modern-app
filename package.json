@@ -33,6 +33,6 @@
     "autoprefixer": "^10.4.11",
     "postcss": "^8.5.18",
     "tailwindcss": "^3.1.8",
-    "vite": "^6.4.3"
+    "vite": "^8.3.8"
   }
 }
